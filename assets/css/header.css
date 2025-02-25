@@ -32,7 +32,6 @@ a{
 }
 .menu ul li a{
     color: var(--white);
-    font-family: var(--inter);
     font-weight: 400;
     line-height: 120%;
     font-size: 20px;
@@ -43,6 +42,7 @@ a{
     transition: 0.5s;
 }
 .button-call {
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding: 12px 32px;
