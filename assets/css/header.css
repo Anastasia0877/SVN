@@ -1,4 +1,4 @@
-a{
+a {
     text-decoration: none;
 }
 .site-nav {
@@ -14,30 +14,26 @@ a{
 .logo-header {
     max-width: 150px;
 }
-.logo-header img{
+.logo-header img {
     width: 100%;
 }
 .menu {
     max-width: 437px;
     width: 100%;
 }
-.menu ul{
+.menu ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.menu ul li{
-
-
-}
-.menu ul li a{
+.menu ul li a {
     color: var(--white);
     font-weight: 400;
     line-height: 120%;
     font-size: 20px;
     transition: 0.5s;
 }
-.menu ul li a:hover{
+.menu ul li a:hover {
     color: var(--orange);
     transition: 0.5s;
 }
@@ -48,14 +44,14 @@ a{
     padding: 12px 32px;
     border: 1px solid var(--orange);
     border-radius: 8px;
-    color:var(--white);
-font-family: var(--inter);
-font-size: 20px;
-font-weight: 400;
-line-height: 120%;
-letter-spacing: 0%;
-text-align: left;
+    color: var(--white);
+    font-family: var(--inter);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0;
+    text-align: left;
 }
-.button-call img{
+.button-call img {
     margin-right: 13px;
 }
